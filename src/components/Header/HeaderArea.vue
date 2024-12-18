@@ -102,16 +102,16 @@ const sidebarStore = useSidebarStore()
           </li>
 
           <!-- Notification Menu Area -->
-          <DropdownNotification />
+          <!-- <DropdownNotification /> -->
           <!-- Notification Menu Area -->
 
           <!-- Chat Notification Area -->
-          <DropdownMessage />
+          <!-- <DropdownMessage /> -->
           <!-- Chat Notification Area -->
         </ul>
 
         <!-- User Area -->
-        <DropdownUser />
+        <!-- <DropdownUser /> -->
         <!-- User Area -->
       </div>
     </div>
