@@ -1,5 +1,6 @@
 <script setup lang="ts">
 import BreadcrumbDefault from '@/components/Breadcrumbs/BreadcrumbDefault.vue'
+import ButtonDefault from '@/components/Buttons/ButtonDefault.vue'
 // import CheckboxFive from '@/components/Forms/Checkboxes/CheckboxFive.vue'
 // import CheckboxFour from '@/components/Forms/Checkboxes/CheckboxFour.vue'
 // import CheckboxOne from '@/components/Forms/Checkboxes/CheckboxOne.vue'
@@ -159,6 +160,12 @@ const toolbarOptions = [
             </div> -->
           </div>
         </DefaultCard>
+        <div class="flex gap-3 justify-end">
+          <div class="flex gap-3 justify-end">
+          <ButtonDefault route="/" label="Save" customClasses="bg-secondary text-gray-800" />
+        <ButtonDefault route="/" label="Publish" customClasses="bg-primary text-white" />
+      </div>
+      </div>
         <!-- Textarea Fields End -->
 
         <!-- Checkbox and radio -->
