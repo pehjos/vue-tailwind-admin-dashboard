@@ -39,19 +39,19 @@ const routes = [
     }
   },
   {
-    path: '/forms/form-elements',
-    name: 'formElements',
+    path: '/post/create-post',
+    name: 'Createpost',
     component: FormElementsView,
     meta: {
-      title: 'Form Elements'
+      title: 'Edit post'
     }
   },
   {
-    path: '/forms/form-layout',
+    path: '/post/edit-post',
     name: 'formLayout',
     component: FormLayoutView,
     meta: {
-      title: 'Form Layout'
+      title: 'Edit post'
     }
   },
   {
