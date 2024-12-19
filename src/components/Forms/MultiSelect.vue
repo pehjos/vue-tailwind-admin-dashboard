@@ -71,7 +71,7 @@ const selectedValues = () => {
 <template>
   <div class="relative z-50">
     <label class="mb-3 block text-sm font-medium text-black dark:text-white">
-      Multiselect Dropdown
+      Tags
     </label>
     <div>
       <select class="hidden" id="multiSelect">

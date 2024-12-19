@@ -43,7 +43,7 @@ const menuGroups = ref([
                   />
                 </svg>`,
         label: 'Dashboard',
-        route: '#',
+        route: '/',
         // children: [{ label: 'eCommerce', route: '/' }]
       },
       // {
@@ -114,11 +114,11 @@ const menuGroups = ref([
                     fill="white"
                   />
                 </svg>`,
-        label: 'Forms',
+        label: 'create post',
         route: '#',
         children: [
-          { label: 'Create Post', route: '/forms/form-elements' },
-          { label: 'Edit posts', route: '/forms/form-layout' }
+          { label: 'Create Post', route: '/post/create-post' },
+          { label: 'Edit posts', route: '/post/edit-post' }
         ]
       },
       {
